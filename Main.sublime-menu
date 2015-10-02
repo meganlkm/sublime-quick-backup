@@ -1,0 +1,20 @@
+[
+    {
+        "id": "tools",
+        "caption": "Tools",
+        "children":
+        [
+            {
+                "id": "packages",
+                "caption": "Packages",
+                "children":
+                [
+                    {
+                        "caption": "Backup This File",
+                        "command": "mk_file_backup"
+                    }
+                ]
+            }
+        ]
+    }
+]
