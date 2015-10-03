@@ -5,7 +5,7 @@ import sublime
 import sublime_plugin
 
 
-class MkFileBackupCommand(sublime_plugin.TextCommand):
+class QuickBackupCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         win_vars = self.view.window().extract_variables()
         newpath = self.get_new_path(win_vars)

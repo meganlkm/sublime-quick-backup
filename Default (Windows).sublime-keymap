@@ -1,3 +1,3 @@
 [
-    { "keys": ["ctrl+s"], "command": "mk_file_backup" }
+    { "keys": ["ctrl+s"], "command": "quick_backup" }
 ]
